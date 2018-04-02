@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:text="Samsung Galaxy J3 Pro (Gold, 16 GB)  (2 GB RAM)"
+            android:textColor="#6F176C"
+            android:textSize="18dip"
+            android:typeface="serif"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dip"
+            android:layout_height="400dip"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editText"
+            android:layout_toStartOf="@+id/editText4"
+            android:src="@drawable/galaxyJ3Pro" /> " />
+
+        <TextView
+            android:id="@+id/editText2"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editText4"
+            android:ems="10"
+            android:text="Product_ID:SAM102"
+            android:textColor="#040404" />
+
+        <TextView
+            android:id="@+id/editText3"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView"
+            android:layout_below="@+id/editText2"
+            android:ems="10"
+            android:text="PRICE:₹₹7,990"
+            android:textColor="#140CED"
+            android:textSize="25dip" />
+
+        <TextView
+            android:id="@+id/editText4"
+            android:layout_width="245dip"
+            android:layout_height="350dip"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="
+•	2 GB RAM | 16 GB ROM | Expandable Upto 128 GB
+•	5 inch HD Display
+•	8MP Rear Camera | 5MP Front Camera
+•	2600 mAh Battery
+•	Spreadtrum Quad Core 1.5GHz Processor
+•	1.5 GHz Quad Core
+
+"
+            android:textColor="#ED430C"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/editText2"
+            android:layout_alignBottom="@+id/editText2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="47dp"
+            android:text="BUY NOW"
+            android:background="#4CAF50"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editText4"
+            android:layout_toEndOf="@+id/editText2"
+            android:text="HIGHLIGHTS"
+            android:textSize="20dip"
+            android:textColor="#3DA620"/>
+
+    </RelativeLayout>
+</LinearLayout>
